@@ -54,6 +54,7 @@ use think\db\Query;
  * @method $this withMax(string|array $relation, string $field, bool $subQuery = true) static 关联MAX统计
  * @method $this withMin(string|array $relation, string $field, bool $subQuery = true) static 关联Min统计
  * @method $this withAvg(string|array $relation, string $field, bool $subQuery = true) static 关联Avg统计
+ * @method $this withSearch(array $fields, array $data, string $prefix = '') static 搜索器
  * @method Paginator|$this paginate() static 分页
  */
 abstract class Model implements \JsonSerializable, \ArrayAccess
